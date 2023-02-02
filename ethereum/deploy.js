@@ -3,7 +3,7 @@ const Web3 = require('web3');
 const compiledFactory = require('./build/PromoDataFactory.json')
 
 const provider = new HDWalletProvider(
-    'inch narrow spell require wait fox dragon horse region bronze license alert', 
+    'AAAABBBBCCCCDDDD', 
     'https://goerli.infura.io/v3/6af8e514004e4114a1adb05891b62565'
 );
 const web3 = new Web3(provider);
